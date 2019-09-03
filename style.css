@@ -24,7 +24,7 @@ body {
 }
 
 .custom-btn:hover{
-    background-color: black;
+    background-color: #003B46;
 }
 
 #header {
@@ -121,11 +121,19 @@ section {
 
 #mainHeader {
     padding-top: 250px;
+    margin-bottom: 150px;
+
 }
 
 #mainHeader h1{
     font-size: 50px;
+
 }
+
+#main-section {
+    margin-bottom: 400px;
+}
+
 
 .grid{
     display: grid;
@@ -154,8 +162,8 @@ section {
     text-align: center;
     width: 300px;
     height: 350px;
-    border: 1px solid black;
     margin-right: 20px;
+    box-shadow: 0px 0px 5px grey;
 }
 
 .card p{
@@ -190,7 +198,21 @@ section {
 form input {
     height: 30px;
     width: 300px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid #1995AD;
 }
+
+
+form input:focus {
+    height: 30px;
+    width: 300px;
+    border:none;
+    outline: none;
+    border: 1px solid #1995AD;
+    box-shadow: 0px 0px 5px #1995AD;
+}
+
 
 form button {
     width: 100px;
