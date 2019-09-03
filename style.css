@@ -11,7 +11,6 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
-
 }
 
 .custom-btn{
@@ -55,7 +54,6 @@ body {
     border-bottom: 2px solid #1995AD;
 }
 
-
 #nav-bar {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -85,7 +83,6 @@ body {
     text-align: right;
     margin-right: 20px;
 }
-
 
 .white-text {
     color: white;
@@ -210,4 +207,20 @@ form button {
 
 footer {
     height: 400px;
+}
+
+h1::selection{
+    background-color:#1995AD;
+}
+
+h2::selection{
+    background-color:#1995AD;
+}
+
+p::selection{
+    background-color: #1995AD;
+}
+
+li::selection{
+    background-color: #1995AD;
 }
