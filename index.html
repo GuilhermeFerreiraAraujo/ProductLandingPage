@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,151 @@
     <title>Sushi Time</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="header">
         <nav id="nav-bar">
             <div class="column1">
-                <h2>Sushi Time</h2>
+                <h2><img class="logo-img" src="logo.png"></h2>
             </div>
 
             <ul class="column2">
-                <li>Option1</li>
-                <li>Option2</li>
-                <li>Option3</li>
+                <li><a href="#whatWeDo">What we do</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
             </ul>
-
-
         </nav>
     </header>
+
+    <section id="main-section">
+
+        <header id="mainHeader" class="margin-top">
+            <hgroup>
+                <h1>Welcome to Sushi Time</h1>
+                <h2>The best sushi formation</h2>
+            </hgroup>
+        </header>
+
+        <button id="btn-more" class="custom-btn">More</button>
+
+    </section>
+
+    <section id="whatWeDo">
+        <header class="margin-top">
+            <hgroup>
+                <h1>What we do</h1>
+            </hgroup>
+        </header>
+
+        <div class="grid">
+
+            <div class="column1 margin-top">
+                <h1 class="margin-top">Made for sushi lovers</h1>
+                <div class="explanationParagraph">
+                    <p class="margin-top">If you love sushi like me and want to learn how to make the best sushi in
+                        town,
+                        check our courses.</p>
+                </div>
+
+                <button class="margin-top">View More</button>
+            </div>
+
+
+            <div class="column2">
+                <iframe id="video" src="https://www.youtube.com/embed/KO0TiBrxzJY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <header>
+            <hgroup>
+                <h1>Courses</h1>
+            </hgroup>
+        </header>
+
+        <div class="flexContainer">
+
+            <div class="card">
+                <h2>Basic Plan</h2>
+
+                <p>The basic plan is made specially for begginers who plans to start a new path.</p>
+
+                <ul class="card-list">
+                    <li>Full time access</li>
+                    <li>Online teacher</li>
+                    <li>Full material</li>
+                    <li>Videos</li>
+                </ul>
+
+                <button class="custom-btn">View Plan</button>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Standard Plan</h2>
+
+                <p>The standard plan is a complete option people who whants to get a full view of the course.</p>
+
+                <ul class="card-list">
+                    <li>Full time access</li>
+                    <li>Online teacher</li>
+                    <li>Full material</li>
+                    <li>Videos</li>
+                </ul>
+
+                <button class="custom-btn">View Plan</button>
+            </div>
+
+            <div class="card">
+
+                <h2>Advanced Plan</h2>
+
+                <p>The basic plan is made specially for begginers who plans to start a new path.</p>
+
+                <ul class="card-list">
+                    <li>Full time access</li>
+                    <li>Online teacher</li>
+                    <li>Full material</li>
+                    <li>Videos</li>
+                </ul>
+
+                <button class="custom-btn">View Plan</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="subscribe">
+        <header>
+            <hgroup>
+                <h1>Subscribe</h1>
+            </hgroup>
+        </header>
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+            <div class="margin-top">
+                <input id="email" type="email" placeholder="Enter your email.">
+
+            </div>
+
+            <button class="custom-btn margin-top margin-bottom" id="Submit">Subscribe</button>
+
+        </form>
+
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+
 </body>
+
 </html>

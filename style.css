@@ -1,28 +1,191 @@
-
 html {
     box-sizing: border-box;
-    background: linear-gradient(to right, #00B4DB, #0083B0);
+    background-color: #F1F1F2;
 }
 
-li {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+.custom-btn{
+    background-color: #1995AD;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: bold;
+    border-radius: 5px;
+}
+
+.custom-btn:hover{
+    background-color: black;
+}
+
+#header {
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section header {
+    text-align: center;
+}
+
+.logo-img {
+    width: 150px;
+    height: 50px;
+}
+
+section {
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.explanationParagraph {
+    width: 80%;
+    margin:auto;
+}
+
+#video{
+    width: 80%;
+    height: 270px;
+    margin: auto;
+}
+
+#nav-bar li {
     display: inline;
     margin-right: 20px;
     margin-left: 20px;
+    color: white;
 }
+
+#nav-bar a:hover{
+    color: #1995AD;
+    border-bottom: 2px solid #1995AD;
+}
+
+#btn-more {
+    position: relative;
+    top: 200px;
+}
+
 
 #nav-bar {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+#mainHeader {
 
-.column1{
+    margin-top: 250px;
+
+
+}
+
+#mainHeader h1{
+    font-size: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 150px;
+}
+
+.grid .column1{
     grid-column: 1;
 }
 
-
-.column2{
+.grid .column2{
     grid-column: 2;
+    text-align: left;
+    margin-right: 20px;
+}
+
+
+#nav-bar .column1{
+    grid-column: 1;
+}
+
+#nav-bar .column2{
+    grid-column: 2;
+    padding-top: 10px;
     text-align: right;
     margin-right: 20px;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+
+.card p{
+    height: 60px;
+}
+
+herder {
+    text-align: center;
+}
+
+
+
+.card-list{
+    text-align: left;
+}
+
+.card-list li {
+    margin-top: 10px;
+}
+
+.card-btn {
+    width: 100px;
+    height: 40px;
+}
+
+section {
+    text-align: center;
+}
+
+#form{
+    margin-top: 20px;
+}
+
+form input {
+    height: 30px;
+    width: 300px;
+}
+
+form button {
+    width: 100px;
+    height: 40px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    height: 400px;
 }
