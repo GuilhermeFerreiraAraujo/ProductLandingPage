@@ -116,7 +116,6 @@ body {
     .padding-bottom {
         padding-bottom: 400px;
     }
-
     
     .grid{
         display: grid;
@@ -141,15 +140,6 @@ body {
         width: 90%;
         margin: auto;
     }
-}
-
-
-.card {
-    text-align: center;
-    width: 300px;
-    height: 350px;
-    margin: auto;
-    box-shadow: 0px 0px 2px grey;
 }
 
 .bg-highligth {
@@ -223,11 +213,13 @@ section header {
     font-size: 50px;
 }
 
-.checked {
-    width: 15px;
-    height: 15px;
+.card {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    box-shadow: 0px 0px 2px grey;
 }
-
 
 .card p{
     height: 60px;
@@ -238,9 +230,6 @@ section header {
     margin-top: 20px;
 }
 
-herder {
-    text-align: center;
-}
 
 .card-list{
     text-align: left;
@@ -255,8 +244,13 @@ herder {
     height: 40px;
 }
 
-section {
-    text-align: center;
+.card ul {
+    list-style-type: none;
+}
+
+.card .checked {
+    width: 15px;
+    height: 15px;
 }
 
 form input {
@@ -266,7 +260,6 @@ form input {
     padding-left: 5px;
     border: 1px solid #1995AD;
 }
-
 
 form input:focus {
     height: 30px;
@@ -283,15 +276,16 @@ form button {
     height: 40px;
 }
 
-
-
 footer {
     height: 200px;
     background-color: #17252A;
     color: white;
     margin: auto;
     position: relative;
+}
 
+section {
+    text-align: center;
 }
 
 h1::selection{
@@ -308,8 +302,4 @@ p::selection{
 
 li::selection{
     background-color: #1995AD;
-}
-
-ul {
-    list-style-type: none;
 }
