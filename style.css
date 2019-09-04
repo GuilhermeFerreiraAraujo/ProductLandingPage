@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background-color: #88BDBC;
 }
 
 .container{
@@ -11,6 +12,24 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+}
+
+.bg-highligth {
+    background-color: #003B46;
+    color: white;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+section header{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.margin-top {
+    margin-top: 30px;
 }
 
 .custom-btn{
@@ -99,14 +118,8 @@ section header {
 }
 
 .logo-img {
-    width: 150px;
+    width: 100px;
     height: 50px;
-}
-
-section {
-    height: 500px;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .explanationParagraph {
@@ -122,24 +135,15 @@ section {
 
 #mainHeader {
     padding-top: 250px;
-    margin-bottom: 150px;
-
 }
 
 #mainHeader h1{
     font-size: 50px;
-
 }
-
-#main-section {
-    margin-bottom: 400px;
-}
-
 
 .grid{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 150px;
 }
 
 .grid .column1{
@@ -152,23 +156,35 @@ section {
     margin-right: 20px;
 }
 
+.checked {
+    width: 15px;
+    height: 15px;
+}
+
 .flexContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .card {
     text-align: center;
     width: 300px;
     height: 350px;
-    margin-right: 20px;
-    box-shadow: 0px 0px 5px grey;
+    margin: auto;
+    box-shadow: 0px 0px 2px grey;
 }
 
 .card p{
     height: 60px;
+    margin-top: 10px;
+}
+
+.card button {
+    margin-top: 20px;
 }
 
 herder {
@@ -190,10 +206,6 @@ herder {
 
 section {
     text-align: center;
-}
-
-#form{
-    margin-top: 20px;
 }
 
 form input {
@@ -220,16 +232,15 @@ form button {
     height: 40px;
 }
 
-.margin-top {
-    margin-top: 20px;
-}
 
-.margin-bottom {
-    margin-bottom: 20px;
-}
 
 footer {
-    height: 400px;
+    height: 200px;
+    background-color: #17252A;
+    color: white;
+    margin: auto;
+    position: relative;
+
 }
 
 h1::selection{
@@ -246,4 +257,12 @@ p::selection{
 
 li::selection{
     background-color: #1995AD;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.padding-bottom {
+    padding-bottom: 400px;
 }
