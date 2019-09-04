@@ -1,6 +1,4 @@
 window.onscroll = function () {
-    'use strict';
-
     var myNav = document.getElementById("nav-bar");
     var anchorElements = document.getElementsByTagName('a');
 
