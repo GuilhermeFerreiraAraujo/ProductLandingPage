@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     background-color: #88BDBC;
+    scroll-behavior: smooth;
 }
 
 body {
